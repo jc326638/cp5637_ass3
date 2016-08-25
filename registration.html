@@ -6,7 +6,7 @@
 <link href="http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet" type="text/css">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link href="index.css" rel="stylesheet">
+<link href="registration.css" rel="stylesheet">
 <link href="responsive.css" rel="stylesheet" media="screen and (max-width: 960px)">
 
 
@@ -26,42 +26,48 @@
 <li><a href="backpacks.html"> Backpacks </a></li>
 <li><a href="../www/ login.html"> Login </a></li>
 <li><a href="../www/ registration.html"> Registration </a></li>
-            
-			
 			</ul>
-
 		
 </nav>
-<p></p>
-<div id="container">
-<section id="col1">
-<img src="Images/handbag.jpg"  alt="pic"> 
-<h3><a href="handbags.html">Handbags</a></h3><br>
-</section>
+<br>
+<h1>New Membership Form</h1>
+<h2>Please enter your profile</h2>
+<p><i>Fields marked with an asterisk (*) must be entered.</i></p>
+<table border="0">
+	<tr>
+    	<td align="right">* Name:</td>
+    	<td><input type="text" id="name" name="name" required></td>
+	</tr>
+	<tr>
+    	<td align="right">* Email:</td>
+    	<td><input type="email" name="email" id="email" required></td>
+	</tr>
+	<tr>
+    	<td align="right">* Password:</td>
+    	<td><input type="password" id="password" name="password" required></td>
+        <td id="pwd_msg" style="color:red;"></td>
+	</tr>
+	<tr>
+    	<td align="right">* Re-try:</td>
+    	<td><input type="Password" id="rePassword" name="rePassword" onChange="checkRePassword(document)"></td>
+	</tr>
+	<tr>
+    	<td align="right"><input type="submit" name="submit" value="Submit" onClick="return validateInfo(document)"></td>
+    	<td><input type="reset" name="reset" value="Clear"></td>
+	</tr>
 
-<section id="col2">
-<img src="Images/wallets.jpg" alt="pic"> 
-<h3><a href="wallets.html">Wallets</a></h3><br>
-</section>
 
-<section id="col3">
-<img src="Images/luggage.jpg" alt="pic"> 
-<h3><a href="luggage.html">Luggage</a></h3><br>
-</section>
+</table>
 
-<section id="col4">
-<img src="Images/backpacks.jpg" alt="pic"> 
-<h3><a href="backpacks.html">Backpacks</a><h3><br>
-</section>
+<br>
 
 <footer><nav><ul>
-<li><a href="about.html"> About Us </a></li>
+<li><a href="about.html">   About Us   </a></li>
 <li><a href="contact.html">   Contact Us   </a></li>
 <li><a href="feedback.html">  Feedback Form </a></li>
 </ul></nav>
- 
-</footer>
-
+ </footer>
 </div>
+
 </body>
 </html>

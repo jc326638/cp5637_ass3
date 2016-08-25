@@ -1,0 +1,101 @@
+/* main.css */
+
+body {
+	font-family: 'Magnolia Script', cursive;
+}
+
+div.wrapper {
+	max-width: 1220px;
+	margin: 0 auto;
+}
+
+header { 
+	background-image: url(Images/banner1.jpg);
+	background-repeat: no-repeat;
+	position: bottom;
+	height: 158px;
+	width: 100%;
+	
+}
+
+header h1 {
+	font-family: 'Magnolia Script', cursive;
+	letter-spacing: 4px;
+	font-size: 72px;
+	padding-top: .5em;
+	padding-left: .5em;
+	color: #ffffff;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 93%;
+}
+
+nav ul li a {
+	display: block;
+	font-weight: bold;
+	padding: .550em 3.1em; /* 10px 15px */
+	text-decoration: none;
+	color: #ffffff;
+	border-right: 1px solid #bababa;
+}
+
+img {max-width: 100%}
+
+
+
+#col1 {
+	float: left;
+	width: 50%;
+	margin-top: 1em 2em 2em 1em;
+        text-align:center;
+color: #ffffff;
+}
+
+ #col2 {
+	float: right;
+	width: 50%;
+	margin-top: 1em 2em 2em 1em;
+text-align:center;
+color: #ffffff;
+}
+
+#col3{
+	float: left; 
+	width: 50%;
+	margin-top: 1em 2em 2em 1em;
+text-align:center;
+color: #ffffff;	
+}
+#col4{
+	float: right; 
+	width: 50%;
+	margin-top: 1em 2em 2em 1em;
+text-align:center;
+color: #ffffff;	
+}
+a {
+color: #ffffff;
+}	
+footer {
+		clear: both;
+		}
+footer h3 {
+	font-family: 'Magnolia Script', cursive;
+	background-color:  #FF3300;
+	padding: .5em 0 .5em .5em;
+	background-repeat: no-repeat;
+	position: bottom;
+
+}
+
+
+
+
